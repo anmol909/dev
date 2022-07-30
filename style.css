@@ -1,0 +1,130 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+    font-family: 'Edu NSW ACT Foundation', cursive;
+    font-family: 'Edu VIC WA NT Beginner', cursive;
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container{
+    height: 100vh;
+    width: 100%;
+    background-image: url(img/background.png);
+    background-position: center;
+    background-size: cover;
+    padding-left: 5%;
+    padding-right: 5%;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.navbar{
+    width: 100%;
+    height: 15vh;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+}
+
+.navbar nav ul li{
+    background: linear-gradient(45deg, #87adfe , #ff77cd);
+    padding: 10px 20px;
+    border-radius: 8px;
+    color: #fff;
+}
+
+.logo{
+    width: 200px;
+    cursor: pointer;
+    text-transform: uppercase;
+    background: linear-gradient(45deg, #8ea4ec , #f5bd6a);
+    border-radius: 8px;
+    padding: 10px 20px;
+    box-sizing: border-box;
+    text-decoration: none;
+    color: #fff;
+    box-shadow: 3px 8px 22px rgba(94,28,68,0.15);
+}
+
+.cart{
+    width: 120px;
+    cursor: pointer;
+    border-radius: 8px;
+    box-shadow: 3px 8px 22px rgba(0, 0, 0, 0.15);
+}
+
+nav{
+    flex: 1;
+    padding-left: 60px;
+}
+
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 0px 20px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: #333;
+    color: #fff;
+}
+
+.content h1{
+    font-size: 60px;
+    font-weight: 100;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    color: #232d60;
+}
+
+.content p{
+    font-size: 20px;
+    color: #6a7199;
+}
+
+.content{
+    margin-left: 10%;
+    margin-top: 10%;
+}
+
+.content .btn{
+    display: inline-block;
+    background: linear-gradient(45deg, #87adfe , #ff77cd);
+    border-radius: 6px;
+    padding: 10px 20px;
+    box-sizing: border-box;
+    text-decoration: none;
+    color: #fff;
+    box-shadow: 3px 8px 22px rgba(94,28,68,0.15);
+}
+
+.sub{
+    width: 15%;
+    height: 80px;
+}
+
+.arrow{
+    padding: 10px 20px;
+    margin-top: 1%;
+    margin-left: 1%;
+    width: 5%;
+    height: 50px;
+    background: linear-gradient(45deg, #e670cc , #5861b8);
+    border-radius: 20px;
+    
+}
+
+.feature{
+    height: 70%;
+    width: 330px;
+    position: absolute;
+    bottom: 50px;
+    right: 80px;
+    border-radius: 8px;
+}
+
